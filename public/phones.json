@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "phone_name": "Galaxy S24 Ultra",
+    "brand_name": "Samsung",
+    "variants": "256GB - 131,999 BDT, 512GB - 148,499 BDT, 1TB - 164,999 BDT",
+    "rear_camera": "200MP + 12MP + 10MP + 10MP",
+    "front_camera": "12MP",
+    "camera_features": "8K video recording, Night Mode, Super Steady Video, 100x Space Zoom",
+    "description": "Flagship with pro-grade camera, performance, and display.",
+    "img": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S24-Ultra-Titanium-Gray-8816.jpg"
+  },
+  {
+    "id": 2,
+    "phone_name": "iPhone 15 Pro Max",
+    "brand_name": "Apple",
+    "variants": "256GB - 131,890 BDT, 512GB - 153,890 BDT, 1TB - 175,890 BDT",
+    "rear_camera": "48MP + 12MP + 12MP",
+    "front_camera": "12MP",
+    "camera_features": "Photonic Engine, Night Mode, ProRAW, 5x optical zoom",
+    "description": "Apple's most advanced phone with titanium design and A17 Pro chip.",
+    "img": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(6)-5363.jpg"
+  },
+  {
+    "id": 3,
+    "phone_name": "Pixel 8 Pro",
+    "brand_name": "Google",
+    "variants": "128GB - 109,890 BDT, 256GB - 120,890 BDT, 512GB - 131,890 BDT",
+    "rear_camera": "50MP + 48MP + 48MP",
+    "front_camera": "10.5MP",
+    "camera_features": "Magic Editor, Night Sight, Super Res Zoom",
+    "description": "Google's AI-powered flagship with the best Android experience.",
+    "img": "https://www.custommacbd.com/cdn/shop/files/Google-Pixel-8-Pro-Porcelain-Custom-Mac-BD.png?v=1705991053"
+  },
+  {
+    "id": 4,
+    "phone_name": "OnePlus 12",
+    "brand_name": "OnePlus",
+    "variants": "256GB - 98,890 BDT, 512GB - 109,890 BDT",
+    "rear_camera": "50MP + 64MP + 48MP",
+    "front_camera": "32MP",
+    "camera_features": "Hasselblad Color, Ultra HDR, Nightscape",
+    "description": "Fast, smooth and powerful flagship with premium design.",
+    "img": "https://d61s2hjse0ytn.cloudfront.net/color/881/Sumash_Tech_1-Recovered_black.webp"
+  },
+  {
+    "id": 5,
+    "phone_name": "Xiaomi 14 Pro",
+    "brand_name": "Xiaomi",
+    "variants": "256GB - 87,890 BDT, 512GB - 98,890 BDT",
+    "rear_camera": "50MP + 50MP + 50MP",
+    "front_camera": "32MP",
+    "camera_features": "Leica optics, 8K video, Night mode",
+    "description": "Photography-focused flagship with premium build and performance.",
+    "img": "https://adminapi.applegadgetsbd.com/storage/media/large/Titanium-4851.jpg"
+  },
+  {
+    "id": 6,
+    "phone_name": "Galaxy Z Fold 5",
+    "brand_name": "Samsung",
+    "variants": "256GB - 197,890 BDT, 512GB - 210,090 BDT, 1TB - 237,490 BDT",
+    "rear_camera": "50MP + 12MP + 10MP",
+    "front_camera": "10MP + 4MP (under display)",
+    "camera_features": "Flex Mode, Nightography, Director’s View",
+    "description": "Foldable productivity beast with large inner display.",
+    "img": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Z-Fold5-Blue-Custom-Mac-BD.jpg?v=1693119336"
+  },
+  {
+    "id": 7,
+    "phone_name": "iPhone 15",
+    "brand_name": "Apple",
+    "variants": "128GB - 87,890 BDT, 256GB - 98,890 BDT, 512GB - 120,890 BDT",
+    "rear_camera": "48MP + 12MP",
+    "front_camera": "12MP",
+    "camera_features": "Smart HDR, Cinematic Mode, Night Mode",
+    "description": "Great all-round iPhone with Dynamic Island and excellent cameras.",
+    "img": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(3)-8671.jpg"
+  },
+  {
+    "id": 8,
+    "phone_name": "Nothing Phone (2)",
+    "brand_name": "Nothing",
+    "variants": "128GB - 65,890 BDT, 256GB - 76,890 BDT",
+    "rear_camera": "50MP + 50MP",
+    "front_camera": "32MP",
+    "camera_features": "Glyph Interface, Ultra-wide, Night Mode",
+    "description": "Unique design with clean Android UI and great performance.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxIxoK7l3g4R4NQT2LprOcxIKVCfERNWtA0Q&s"
+  },
+  {
+    "id": 9,
+    "phone_name": "Motorola Edge+ (2023)",
+    "brand_name": "Motorola",
+    "variants": "256GB - 87,999 BDT",
+    "rear_camera": "50MP + 50MP + 12MP",
+    "front_camera": "60MP",
+    "camera_features": "4K HDR10+, Night Vision, Ultrawide",
+    "description": "Powerful specs, clean software, and solid camera system.",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2023/05/Motorola-Edge-Plus-2023.jpg"
+  },
+  {
+    "id": 10,
+    "phone_name": "ASUS ROG Phone 8",
+    "brand_name": "ASUS",
+    "variants": "256GB - 120,890 BDT, 512GB - 131,890 BDT",
+    "rear_camera": "50MP + 13MP + 5MP",
+    "front_camera": "32MP",
+    "camera_features": "Game Genie, AI Scene Detection, Steady Video",
+    "description": "best Asus Phone for gaming , best Asus Phone for gaming ,best Asus Phone for gaming ",
+    "img": "https://kryinternational.com/wp-content/uploads/2024/06/Asus-ROG-Phone-8-Pro.jpg" } ,
+  
+  
+    {
+      "id": 11,
+      "phone_name": "Infinix Zero X Neo",
+      "brand_name": "Infinix",
+      "variants": "128GB - 32,990 BDT",
+      "rear_camera": "64MP + 8MP + 2MP",
+      "front_camera": "16MP",
+      "camera_features": "Periscope Zoom, Starry Mode, Night Selfie",
+      "description": "Affordable phone with periscope zoom and impressive low-light capabilities.",
+      "img": "https://mobilebazar.com.bd/assets/img/Infinix_Zero_X_Neo.webp"
+    },
+    {
+      "id": 12,
+      "phone_name": "Tecno Phantom X2 Pro",
+      "brand_name": "Tecno",
+      "variants": "256GB - 55,490 BDT",
+      "rear_camera": "50MP + 50MP retractable portrait + 13MP",
+      "front_camera": "32MP",
+      "camera_features": "Retractable Lens, Night Portrait, AI Scene Enhancement",
+      "description": "Mid-range innovation with retractable portrait lens and sleek design.",
+      "img": "https://www.mobiledokan.co/wp-content/uploads/2022/07/Tecno-Phantom-X2-Pro-Mars-Orange.jpg"
+    }
+  ]
+  
+ 
