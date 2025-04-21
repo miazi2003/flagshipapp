@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router';
 import { FaShoppingCart } from "react-icons/fa";
 import { MdOutlineFavorite } from "react-icons/md";
 
 import { IoHome} from "react-icons/io5";
 import { FaQuestionCircle } from "react-icons/fa";
+import { CartContext } from '../provider/Contex';
 
 
 
 const Navbar = () => {
+
+  const {cart} = useContext(CartContext)
+
+  console.log(cart)
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm  max-w-screen-2xl mx-auto px-8 md:px-12 lg:px-16">
@@ -36,7 +41,9 @@ const Navbar = () => {
   <ul className="menu menu-horizontal px-1 items-center font-bold">
       <li><NavLink className={({isActive})=> isActive? "text-red-500" : ""}  to='/'><IoHome size={20}/></NavLink> </li>
       <li><NavLink className={({isActive})=> isActive? "text-red-500" : ""}  to="/about"><FaQuestionCircle size={20} /></NavLink> </li>
-      <li><NavLink className={({isActive})=> isActive? "text-red-500" : ""}  to="/cart"><FaShoppingCart size={20} /></NavLink> </li>
+
+      <li className='relative'><NavLink className={({isActive})=> isActive? "text-red-500" : ""}  to="/cart"><FaShoppingCart size={20} /> <p>{cart.length}</p></NavLink> </li>
+
       <li><NavLink className={({isActive})=> isActive? "text-red-500" : ""}  to="favorite"><MdOutlineFavorite size={20}/></NavLink> </li>
       
       

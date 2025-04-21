@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useLoaderData, useParams } from "react-router";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { MdOutlineFavorite } from "react-icons/md";
 import Button from "../components/ui/button";
-import { addFavorite } from "../utilities";
+import { addCart, addFavorite, getCart } from "../utilities";
+import { CartContext } from "../provider/Contex";
 
 
 const PhoneDetails = () => {
+
+
+const {setCart} = useContext(CartContext)
+
+
+
   const data = useLoaderData();
 
   const { id } = useParams();
@@ -30,6 +37,14 @@ function handleFavorite(){
   addFavorite(singlePhone)
 }
 
+function handleCart(){
+
+  addCart(singlePhone)
+
+  setCart(getCart())
+
+}
+
 
 
 
@@ -45,7 +60,7 @@ function handleFavorite(){
             <h1 className="font-semibold text-6xl">{phone_name}</h1>
 
             <div className="button flex gap-4">
-              <Button label={<MdOutlineAddShoppingCart />} />
+              <Button onClick={handleCart} label={<MdOutlineAddShoppingCart />} />
               <Button onClick={handleFavorite} label={<MdOutlineFavorite />} />
             </div>
           </div>
@@ -91,3 +106,6 @@ function handleFavorite(){
 };
 
 export default PhoneDetails;
+
+
+// ()=> {setCart(p=>[...p,singlePhone])}
