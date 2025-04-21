@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import BannerImg from "../assets/banner.png";
-const Hero = () => {
+const Hero = ({ handleSearch }) => {
+  const [searchText, setSearchText] = useState("");
+
   return (
     <div>
       <div className="py-12 w-[100%] mx-auto md:max-w-md ">
@@ -14,14 +16,26 @@ const Hero = () => {
             flagship phones of the current time - FlagshipFaceOff{" "}
           </p>
         </div>
-        <form className="flex flex-col md:flex-row items-start mb-4  w-full md:gap-2">
+        <form
+          onSubmit={(e) => {
+            handleSearch(e, searchText);
+
+            setSearchText("");
+          }}
+          className="flex flex-col md:flex-row items-start mb-4  w-full md:gap-2"
+        >
           <input
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
             type="text"
             placeholder="Search here ..."
             className="border border-gray-200 bg-white rounded shadow-md h-10 w-4/5 mb-3  pl-4 focus:outline-none focus:outline-shadow"
           />
 
-          <button className="relative inline-block text-lg group cursor-pointer">
+          <button
+            type="submit"
+            className="relative inline-block text-lg group cursor-pointer"
+          >
             <span className="relative z-10 block px-3 py-2 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
               <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
