@@ -10,7 +10,7 @@ const Empty = () => {
         <p>Browse , Search , Select And Buy</p>
         <Link to='/'>
         <Button label='Browse Phones'/>
-        </Link>
+        </Link>       
            </div>
         </div>
     );
