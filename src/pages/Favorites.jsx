@@ -24,7 +24,7 @@ const Favorites = () => {
     return (
         <div>
       <div >
-        <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-8 pb-4">
+        <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-8 pb-4 mt-4">
         {
           displayPhones.map(phone => <PhoneCard key={phone.id} phone={phone} deletable={true} handleDelete={handleDelete}></PhoneCard>)
         }

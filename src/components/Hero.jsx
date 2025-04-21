@@ -22,16 +22,17 @@ const Hero = ({ handleSearch }) => {
 
             setSearchText("");
           }}
-          className="flex flex-col md:flex-row items-start mb-4  w-full md:gap-2"
+          className="flex flex-col md:flex-row md:items-start mb-4  w-full md:gap-2 text-center "
         >
           <input
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
             type="text"
-            placeholder="Search here ..."
-            className="border border-gray-200 bg-white rounded shadow-md h-10 w-4/5 mb-3  pl-4 focus:outline-none focus:outline-shadow"
+            placeholder="Search here ..." 
+            className="border border-gray-200 bg-white rounded shadow-md h-10 w-full md:w-4/5 mb-3  pl-4 focus:outline-none focus:outline-shadow"
           />
 
+          <div>
           <button
             type="submit"
             className="relative inline-block text-lg group cursor-pointer"
@@ -46,6 +47,7 @@ const Hero = ({ handleSearch }) => {
               data-rounded="rounded-lg"
             ></span>
           </button>
+          </div>
         </form>
       </div>
     </div>

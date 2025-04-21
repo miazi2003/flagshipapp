@@ -55,9 +55,9 @@ function handleCart(){
           <img className="h-full  bg-cover" src={img} alt="" />
         </div>
 
-        <div className=" shadow-sm shadow-gray-600 py-12 px-10 w-full mt-12 flex flex-col gap-8">
-          <div className="flex justify-between">
-            <h1 className="font-semibold text-6xl">{phone_name}</h1>
+        <div className=" shadow-sm shadow-gray-600 py-4 md:py-12 px-10 w-full mt-12 flex flex-col gap-8">
+          <div className="flex flex-col md:flex-row justify-between gap-4">
+            <h1 className="md:font-semibold font-medium text-6xl ">{phone_name}</h1>
 
             <div className="button flex gap-4">
               <Button onClick={handleCart} label={<MdOutlineAddShoppingCart />} />
